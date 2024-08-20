@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV GX"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY shift_register
+set_global_assignment -name TOP_LEVEL_ENTITY ULA
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:02:10  JULY 24, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -81,6 +81,25 @@ set_global_assignment -name BDF_FILE mux_21_4b.bdf
 set_global_assignment -name BDF_FILE mux_41.bdf
 set_global_assignment -name BDF_FILE mux_41_4b.bdf
 set_global_assignment -name BDF_FILE shift_register.bdf
+set_global_assignment -name BDF_FILE adder_1b.bdf
+set_global_assignment -name BDF_FILE adder_4b.bdf
+set_global_assignment -name BDF_FILE inverter_4b.bdf
+set_global_assignment -name BDF_FILE and_4b.bdf
+set_global_assignment -name BDF_FILE or_4b.bdf
+set_global_assignment -name BDF_FILE xor_4b.bdf
+set_global_assignment -name BDF_FILE segment_a.bdf
+set_global_assignment -name BDF_FILE segment_b.bdf
+set_global_assignment -name BDF_FILE segment_base.bdf
+set_global_assignment -name BDF_FILE segment_c.bdf
+set_global_assignment -name BDF_FILE segment_d.bdf
+set_global_assignment -name BDF_FILE segment_e.bdf
+set_global_assignment -name BDF_FILE segment_f.bdf
+set_global_assignment -name BDF_FILE segment_g.bdf
+set_global_assignment -name BDF_FILE segment_display_decoder.bdf
+set_global_assignment -name BDF_FILE special_selector.bdf
+set_global_assignment -name BDF_FILE operation_overflow_selector.bdf
+set_global_assignment -name BDF_FILE vector_operation_selector.bdf
+set_global_assignment -name BDF_FILE ULA.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
