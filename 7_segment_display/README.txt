@@ -1,0 +1,1 @@
+Implementação dos módulos necessários para um display de 7 segmentos para os valores 0..F, isto é, em 4 bits.
