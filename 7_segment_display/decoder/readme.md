@@ -1,0 +1,1 @@
+Decodificador (demuplexador) do *display* de 7 segmentos.
