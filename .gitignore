@@ -114,3 +114,8 @@ db/nrdclib.(1).cnf.cdb
 db/nrdclib.(0).cnf.hdb
 db/nrdclib.(0).cnf.cdb
 db/logic_util_heursitic.dat
+*.flock
+*.cdb
+*.cdb
+*.tmp
+*.ddb
