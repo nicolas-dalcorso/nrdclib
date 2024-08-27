@@ -1,2 +1,2 @@
 # nrdclib
- A library of modules for Digital Circuits
+Biblioteca de anotações, arquivos esquemáticos e simbólicos, e estudos sobre Circuitos Digitais.
