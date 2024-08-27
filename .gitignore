@@ -119,3 +119,6 @@ db/logic_util_heursitic.dat
 *.cdb
 *.tmp
 *.ddb
+*.json
+*.ammdb
+*.ammdb
